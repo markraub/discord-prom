@@ -1,6 +1,6 @@
 import discord, re, requests, os, time
-
-TOKEN = 'NDcxMDU4MzY2NDk2NTA1ODY3.DjfS9Q.j0HzLYIrzgbFJOfFtTWJnA3Tnso'
+import key
+TOKEN = key.client_token
 
 client = discord.Client()
 
