@@ -11,3 +11,10 @@ Works with python v3.6.6 on macos
 
 ` monitor [rx, tx, read, write] [node] `
 
+
+### Using with your own bot
+
+create a `key.py` file in the same dir:
+`client_token = '[your bot token]'`
+
+Don't forget to add your bot to a channel
